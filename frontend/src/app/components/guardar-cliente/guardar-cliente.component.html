@@ -1,0 +1,8 @@
+<h1>Guardar cliente</h1>
+<form (submit)="save()">
+    <input type="text" placeholder="Nombre" name="name" [(ngModel)]="name">
+    <input type="text" placeholder="Apellidos" name="surname" [(ngModel)]="lastname">
+    <input type="text" placeholder="Email" name="email" [(ngModel)]="email">
+    <input type="text" placeholder="Phone" name="phone" [(ngModel)]="phone">
+    <button type="submit">Guardar</button>
+</form>
