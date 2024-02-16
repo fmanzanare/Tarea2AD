@@ -31,6 +31,9 @@ export class GuardarClienteComponent {
       next: res => console.log(res),
       error: err => console.error(err)
     })
+
+    alert("Usuario creado")
+    window.location.reload()
   }
 
 }
