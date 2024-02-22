@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ClientService {
 
-  BASE_URL: string = 'http://192.168.192.114:8080/api/client'
+  BASE_URL: string = 'http://localhost:8080/api/client'
   headers = new HttpHeaders({'Content-Type': 'application/json'})
 
   constructor(private http: HttpClient) { }
